@@ -1,0 +1,10 @@
+20:16:53 **** Incremental Build of configuration Debug for project OA ****
+make -j4 all 
+arm-none-eabi-size   OA.elf 
+   text	   data	    bss	    dec	    hex	filename
+  35432	    484	   1756	  37672	   9328	OA.elf
+Finished building: default.size.stdout
+ 
+
+20:16:54 Build Finished. 0 errors, 0 warnings. (took 535ms)
+

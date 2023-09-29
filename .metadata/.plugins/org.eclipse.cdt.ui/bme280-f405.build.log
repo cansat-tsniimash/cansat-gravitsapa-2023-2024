@@ -1,0 +1,10 @@
+20:14:44 **** Incremental Build of configuration Debug for project bme280-f405 ****
+make -j4 all 
+arm-none-eabi-size   bme280-f405.elf 
+   text	   data	    bss	    dec	    hex	filename
+  38236	    484	   1828	  40548	   9e64	bme280-f405.elf
+Finished building: default.size.stdout
+ 
+
+20:14:45 Build Finished. 0 errors, 0 warnings. (took 476ms)
+

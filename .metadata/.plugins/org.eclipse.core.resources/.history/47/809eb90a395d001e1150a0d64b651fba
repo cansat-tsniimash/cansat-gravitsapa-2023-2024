@@ -1,0 +1,27 @@
+#ifndef BME280_H_
+
+#define BME280_H_
+
+//------------------------------------------------
+#define BME280_ADDRESS 0xEC //BME280 I2C ADDRES (0x76<<1)
+
+
+#define BME280_REG_ID 0xD0 //BME280 ID REGISTER
+
+#define BME280_ID 0x60 //BME280 I2C ID
+
+#include "stm32f1xx_hal.h"
+
+#include <string.h>
+
+#include <math.h>
+
+//------------------------------------------------
+
+//------------------------------------------------
+
+#endif /* BME280_H_ */
+
+
+
+

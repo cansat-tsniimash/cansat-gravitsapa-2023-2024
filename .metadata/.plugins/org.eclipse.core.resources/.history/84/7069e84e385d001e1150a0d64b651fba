@@ -1,0 +1,45 @@
+#ifndef BME280_H_
+
+#define BME280_H_
+
+//------------------------------------------------
+
+#include "stm32f4xx_hal.h"
+
+#include <string.h>
+
+#include <math.h>
+
+//------------------------------------------------
+
+//------------------------------------------------
+
+#endif /* BME280_H_ */
+
+
+
+BME280.c:
+
+
+
+#include "BME280.h"
+
+//------------------------------------------------
+
+extern I2C_HandleTypeDef hi2c1;
+
+extern UART_HandleTypeDef huart2;
+
+extern char str1[100];
+
+//------------------------------------------------
+
+
+
+Подключим модуль в файле main.c
+
+
+
+#include <string.h>
+
+#include "BME280.h"
