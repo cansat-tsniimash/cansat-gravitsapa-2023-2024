@@ -1,10 +1,27 @@
-20:16:53 **** Incremental Build of configuration Debug for project OA ****
+20:20:08 **** Incremental Build of configuration Debug for project OA ****
 make -j4 all 
+arm-none-eabi-gcc "../Application/app_main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Application/app_main.d" -MT"Application/app_main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Application/app_main.o"
+../Application/app_main.c: In function 'app_main':
+../Application/app_main.c:84:11: warning: assignment to 'bme280_read_fptr_t' {aka 'signed char (*)(unsigned char,  unsigned char *, long unsigned int,  void *)'} from incompatible pointer type 'int32_t (*)(void *, uint8_t,  uint8_t *, uint16_t)' {aka 'long int (*)(void *, unsigned char,  unsigned char *, short unsigned int)'} [-Wincompatible-pointer-types]
+   84 |  bme.read = bme_i2c_read;
+      |           ^
+../Application/app_main.c:85:12: warning: assignment to 'bme280_write_fptr_t' {aka 'signed char (*)(unsigned char,  const unsigned char *, long unsigned int,  void *)'} from incompatible pointer type 'int32_t (*)(void *, uint8_t,  const uint8_t *, uint16_t)' {aka 'long int (*)(void *, unsigned char,  const unsigned char *, short unsigned int)'} [-Wincompatible-pointer-types]
+   85 |  bme.write = bme_i2c_write;
+      |            ^
+../Application/app_main.c:156:4: warning: too many arguments for format [-Wformat-extra-args]
+  156 |    " acc = %10.4f,%10.4f,%10.4f; gyro=%10.4f,%10.4f,%10.4f" " ||| ", //\n",
+      |    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+arm-none-eabi-gcc -o "OA.elf" @"objects.list"   -mcpu=cortex-m3 -T"/home/miroalex07/Documents/cansat-gravitsapa-2023-2024/src/board/STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="OA.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: OA.elf
+ 
 arm-none-eabi-size   OA.elf 
+arm-none-eabi-objdump -h -S  OA.elf  > "OA.list"
    text	   data	    bss	    dec	    hex	filename
-  35432	    484	   1756	  37672	   9328	OA.elf
+  33056	    484	   1756	  35296	   89e0	OA.elf
 Finished building: default.size.stdout
  
+Finished building: OA.list
+ 
 
-20:16:54 Build Finished. 0 errors, 0 warnings. (took 535ms)
+20:20:09 Build Finished. 0 errors, 3 warnings. (took 600ms)
 

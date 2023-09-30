@@ -1,8 +1,8 @@
 app_main.c:9:13:bme_i2c_down	1
 app_main.c:15:13:bme_i2c_up	1
-app_main.c:22:29:bme_i2c_read	1
-app_main.c:38:29:bme_i2c_write	1
-app_main.c:54:13:bme_delay_us	2
-app_main.c:68:16:lsm_i2c_read	1
-app_main.c:76:16:lsm_i2c_write	1
-app_main.c:85:5:app_main	2
+app_main.c:23:16:bme_i2c_read	1
+app_main.c:35:16:bme_i2c_write	1
+app_main.c:46:13:bme_delay_us	2
+app_main.c:60:16:lsm_i2c_read	1
+app_main.c:68:16:lsm_i2c_write	1
+app_main.c:77:5:app_main	2

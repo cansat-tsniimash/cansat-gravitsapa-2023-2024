@@ -1,4 +1,4 @@
-bme280.c:404:8:bme280_init	7
+bme280.c:404:8:bme280_init	6
 bme280.c:458:8:bme280_get_regs	5
 bme280.c:495:8:bme280_set_regs	10
 bme280.c:566:8:bme280_set_sensor_settings	8

@@ -3,4 +3,4 @@ main.c:114:6:SystemClock_Config	3
 main.c:151:13:MX_I2C1_Init	2
 main.c:185:13:MX_I2C2_Init	2
 main.c:219:13:MX_GPIO_Init	1
-main.c:239:6:Error_Handler	1
+main.c:251:6:Error_Handler	1

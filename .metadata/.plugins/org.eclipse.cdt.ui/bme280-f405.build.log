@@ -1,10 +1,17 @@
-20:14:44 **** Incremental Build of configuration Debug for project bme280-f405 ****
+16:28:15 **** Incremental Build of configuration Debug for project bme280-f405 ****
 make -j4 all 
+arm-none-eabi-gcc "../Application/app_main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F405xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Application/app_main.d" -MT"Application/app_main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Application/app_main.o"
+arm-none-eabi-gcc -o "bme280-f405.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/miroalex07/Documents/bme280-f405/STM32F405VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="bme280-f405.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: bme280-f405.elf
+ 
 arm-none-eabi-size   bme280-f405.elf 
+arm-none-eabi-objdump -h -S  bme280-f405.elf  > "bme280-f405.list"
    text	   data	    bss	    dec	    hex	filename
-  38236	    484	   1828	  40548	   9e64	bme280-f405.elf
+  38220	    484	   1828	  40532	   9e54	bme280-f405.elf
 Finished building: default.size.stdout
  
+Finished building: bme280-f405.list
+ 
 
-20:14:45 Build Finished. 0 errors, 0 warnings. (took 476ms)
+16:28:16 Build Finished. 0 errors, 0 warnings. (took 850ms)
 

@@ -1,3 +1,55 @@
-2023-09-29 19:49:01,540 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
-2023-09-29 19:49:01,586 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
-2023-09-29 19:49:01,587 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2023-09-30 15:52:40,658 [WARN] IP:2113 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-09-30 15:52:40,660 [WARN] IP:2113 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-09-30 15:52:40,661 [WARN] IP:2113 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-09-30 15:52:40,662 [WARN] IP:2113 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-09-30 15:52:40,664 [WARN] IP:2113 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-09-30 15:52:40,664 [WARN] IP:2113 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-09-30 15:52:40,665 [WARN] IP:2113 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-09-30 15:52:40,665 [WARN] IP:2113 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-09-30 15:52:40,679 [WARN] IP:2113 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-09-30 15:52:40,680 [WARN] IP:2113 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-09-30 15:52:40,682 [WARN] IP:2113 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-09-30 15:52:40,682 [WARN] IP:2113 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-09-30 15:52:40,696 [WARN] IP:2113 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-09-30 15:52:40,696 [WARN] IP:2113 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-09-30 15:52:40,698 [WARN] IP:2113 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-09-30 15:52:40,698 [WARN] IP:2113 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-09-30 15:52:40,766 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2023-09-30 15:53:46,423 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 422759856 Bytes (695205888)
+2023-09-30 15:53:49,691 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 479382960 Bytes (695205888)
+2023-09-30 15:53:50,328 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 578014656 Bytes (695205888)
+2023-09-30 15:53:50,736 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2023-09-30 15:53:50,736 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2023-09-30 15:53:50,739 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2023-09-30 15:53:50,740 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2023-09-30 15:53:50,740 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: I2C
+2023-09-30 15:53:50,740 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: I2C
+2023-09-30 15:53:50,741 [INFO] CodeGenerator:793 - code generatio: config db path: /home/miroalex07/.stm32cubemx/databases/DB.6.0.80/db/
+2023-09-30 15:53:50,742 [WARN] IP:2113 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-09-30 15:53:50,742 [WARN] IP:2113 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-09-30 15:53:50,743 [WARN] IP:2113 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2023-09-30 15:53:50,744 [WARN] IP:2113 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2023-09-30 15:53:51,137 [INFO] CodeEngine:255 - oldGeneratedFile, /home/miroalex07/Documents/cansat-gravitsapa-2023-2024/src/board/MXTmpFiles/license.tmp_save
+2023-09-30 15:53:51,332 [INFO] CodeEngine:279 - Generated code: /home/miroalex07/Documents/cansat-gravitsapa-2023-2024/src/board/MXTmpFiles/license.tmp
+2023-09-30 15:53:51,393 [INFO] CodeEngine:255 - oldGeneratedFile, /home/miroalex07/Documents/cansat-gravitsapa-2023-2024/src/board/MXTmpFiles/gpio.tmp_save
+2023-09-30 15:53:51,542 [INFO] CodeEngine:279 - Generated code: /home/miroalex07/Documents/cansat-gravitsapa-2023-2024/src/board/MXTmpFiles/gpio.tmp
+2023-09-30 15:53:51,634 [INFO] CodeEngine:255 - oldGeneratedFile, /home/miroalex07/Documents/cansat-gravitsapa-2023-2024/src/board/Core/Src/stm32f1xx_it.c_save
+2023-09-30 15:53:51,870 [INFO] CodeEngine:279 - Generated code: /home/miroalex07/Documents/cansat-gravitsapa-2023-2024/src/board/Core/Src/stm32f1xx_it.c
+2023-09-30 15:53:51,873 [INFO] CodeEngine:255 - oldGeneratedFile, /home/miroalex07/Documents/cansat-gravitsapa-2023-2024/src/board/Core/Inc/stm32f1xx_it.h_save
+2023-09-30 15:53:51,982 [INFO] CodeEngine:279 - Generated code: /home/miroalex07/Documents/cansat-gravitsapa-2023-2024/src/board/Core/Inc/stm32f1xx_it.h
+2023-09-30 15:53:51,986 [INFO] CodeEngine:255 - oldGeneratedFile, /home/miroalex07/Documents/cansat-gravitsapa-2023-2024/src/board/Core/Src/stm32f1xx_hal_msp.c_save
+2023-09-30 15:53:52,322 [INFO] CodeEngine:279 - Generated code: /home/miroalex07/Documents/cansat-gravitsapa-2023-2024/src/board/Core/Src/stm32f1xx_hal_msp.c
+2023-09-30 15:53:52,324 [INFO] CodeEngine:255 - oldGeneratedFile, /home/miroalex07/Documents/cansat-gravitsapa-2023-2024/src/board/MXTmpFiles/system.tmp_save
+2023-09-30 15:53:52,412 [INFO] CodeEngine:279 - Generated code: /home/miroalex07/Documents/cansat-gravitsapa-2023-2024/src/board/MXTmpFiles/system.tmp
+2023-09-30 15:53:52,415 [INFO] CodeEngine:311 - oldGeneratedFile, /home/miroalex07/Documents/cansat-gravitsapa-2023-2024/src/board/Core/Inc/stm32f1xx_hal_conf.h_save
+2023-09-30 15:53:52,496 [INFO] CodeEngine:335 - Generated code: /home/miroalex07/Documents/cansat-gravitsapa-2023-2024/src/board/Core/Inc/stm32f1xx_hal_conf.h
+2023-09-30 15:53:52,515 [INFO] CodeEngine:255 - oldGeneratedFile, /home/miroalex07/Documents/cansat-gravitsapa-2023-2024/src/board/Core/Inc/main.h_save
+2023-09-30 15:53:52,610 [INFO] CodeEngine:279 - Generated code: /home/miroalex07/Documents/cansat-gravitsapa-2023-2024/src/board/Core/Inc/main.h
+2023-09-30 15:53:52,612 [INFO] CodeEngine:255 - oldGeneratedFile, /home/miroalex07/Documents/cansat-gravitsapa-2023-2024/src/board/Core/Src/main.c_save
+2023-09-30 15:53:52,734 [INFO] CodeEngine:279 - Generated code: /home/miroalex07/Documents/cansat-gravitsapa-2023-2024/src/board/Core/Src/main.c
+2023-09-30 15:53:53,485 [INFO] ProjectBuilder:2996 - Time for Copy HAL[1] : 55mS.
+2023-09-30 15:53:53,489 [INFO] ProjectBuilder:4304 - Project Generator version: 3.19.2
+2023-09-30 15:53:53,804 [INFO] ConfigFileManager:1483 - The Die is : DIE410
+2023-09-30 15:53:56,088 [INFO] ProjectBuilder:4505 - Time for Generating toolchain IDE Files: 2599mS.
+2023-09-30 15:53:56,089 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 1mS.
+2023-09-30 15:53:56,089 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.
